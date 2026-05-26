@@ -145,7 +145,7 @@ endef
 define Package/libmosquittopp
     SECTION:=libs
     CATEGORY:=Libraries
-    DEPENDS:=libmosquitto +libstdcpp
+    DEPENDS:=+libmosquitto-ssl +libstdcpp
     TITLE:= mosquitto - client c++ library
 endef
 
